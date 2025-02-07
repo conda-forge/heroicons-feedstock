@@ -1,5 +1,5 @@
 {% set name = "heroicons" %}
-{% set version = "2.10.0" %}
+{% set version = "2.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/heroicons-{{ version }}.tar.gz
-  sha256: 3e739e1ca74e126874d02385b7ada988b589bd579a4e3932b98a2c5e0dccb75a
+  sha256: 36fed4e7a2fc134f70fd22597a73012b74904cec19968f85a5bad8ae97fb7cc2
 
 build:
   noarch: python
